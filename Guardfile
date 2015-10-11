@@ -5,7 +5,7 @@
 # notifications: true                send notifictions to Growl/libnotify/Notifu
 # haml_options: { ugly: true }    pass options to the Haml engine
 
-#guard 'haml', input: 'haml', output: 'public'
+guard 'haml', input: 'haml', output: './', run_at_start: true
 
 
 guard 'livereload' do
